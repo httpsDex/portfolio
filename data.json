@@ -32,7 +32,8 @@
       "description": "A web-based evaluation system for employees to track and view their merit points based on performance.",
       "image": "",
       "tags": [
-        "PHP",
+        "HTML/CSS",
+        "JavaScript",
         "MySQL",
         "Bootstrap"
       ],
@@ -44,6 +45,7 @@
       "description": "A work log management system that tracks all office tasks, repairs, and equipment borrows in the IT department.",
       "image": "",
       "tags": [
+        "HTML/CSS",
         "Node.js",
         "Express",
         "MySQL"
