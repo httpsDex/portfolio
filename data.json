@@ -3,12 +3,21 @@
     "name": "John Dexter V. Francisco",
     "title": "Full-Stack Developer & CS Graduate",
     "intro": "Hi, I'm Dexter — a Fresh Graduate CompSci Student. I build practical web systems and love learning emerging tech. Nice to meet you!",
-    "resumeUrl": "",
-    "lightPhoto": "https://via.placeholder.com/400x400/6366f1/ffffff?text=Dexter",
-    "darkPhoto": "https://via.placeholder.com/400x400/818cf8/ffffff?text=Dexter"
+    "lightPhoto": "",
+    "darkPhoto": "",
+    "resumeUrl": "https://drive.google.com/file/d/1KQwVJ4wuCerElUaVoP-v2mxQJZGzf9OR/view?usp=sharing"
   },
   "about": "Recent Bachelor of Science in Computer Science graduate with a growing understanding of software development, web technologies, and database management. Eager to build practical solutions and continue learning emerging technologies, including AI-assisted development tools. Experienced in developing web-based systems using HTML, CSS, Tailwind CSS, Bootstrap, JavaScript, Node.js, Express.js, PHP, and MySQL through academic projects and professional internship experience. A Dean's Lister and motivated problem solver seeking opportunities to apply technical skills while continuing to grow as a software developer.",
-  "skills": ["PHP", "JavaScript", "Node.js", "Express.js", "React", "Tailwind CSS", "MySQL", "HTML/CSS"],
+  "skills": [
+    "PHP",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "React",
+    "Tailwind CSS",
+    "MySQL",
+    "HTML/CSS"
+  ],
   "experience": [
     {
       "title": "Information Technology Department Intern",
@@ -22,7 +31,11 @@
       "title": "MeritUp — Web-Based Merit Evaluation",
       "description": "A web-based evaluation system for employees to track and view their merit points based on performance.",
       "image": "",
-      "tags": ["PHP", "MySQL", "Bootstrap"],
+      "tags": [
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
       "liveUrl": "",
       "githubUrl": ""
     },
@@ -30,7 +43,11 @@
       "title": "IT Log Management System",
       "description": "A work log management system that tracks all office tasks, repairs, and equipment borrows in the IT department.",
       "image": "",
-      "tags": ["Node.js", "Express", "MySQL"],
+      "tags": [
+        "Node.js",
+        "Express",
+        "MySQL"
+      ],
       "liveUrl": "",
       "githubUrl": ""
     }
@@ -47,7 +64,7 @@
   ],
   "contact": {
     "email": "franciscodexter308@gmail.com",
-    "linkedin": "",
-    "github": "https://github.com/httpsDex"
+    "github": "https://github.com/httpsDex",
+    "linkedin": ""
   }
 }

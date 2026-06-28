@@ -124,7 +124,7 @@
 <header id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
   <div class="max-w-6xl mx-auto px-5 sm:px-8 flex items-center justify-between h-16">
     <!-- Logo / Monogram -->
-    <a href="#hero" class="font-display text-xl font-800 tracking-tight gradient-text select-none">DX.</a>
+    <a href="#hero" class="font-display text-xl font-800 tracking-tight gradient-text select-none">Dexter</a>
 
     <!-- Desktop nav -->
     <nav class="hidden md:flex items-center gap-7 text-sm font-medium">
@@ -296,11 +296,9 @@
 
 <!-- ===================== FOOTER ===================== -->
 <footer class="border-t border-gray-100 dark:border-white/5 py-8 bg-white dark:bg-[#080810]">
-  <div class="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-gray-400">
-    <span id="footerName" class="font-display font-700 gradient-text text-base">DX.</span>
+<div class="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-center gap-3 text-sm text-gray-400">
     <span id="footerCopy"></span>
-    <a href="admin.html" class="text-xs text-gray-300 dark:text-gray-600 hover:text-accent transition-colors">Admin ↗</a>
-  </div>
+</div>
 </footer>
 
 <!-- Back to top -->
@@ -337,7 +335,8 @@
 
     // Hero
     const name = d.hero?.name || 'Dexter';
-    const firstName = name.split(' ').find(n => n.length > 1 && !['V.'].includes(n)) || name.split(' ')[0];
+    const nameParts = name.split(' ');
+    const firstName = nameParts.length > 1 ? nameParts[1] : nameParts[0];
     document.getElementById('heroName').innerHTML = `Hi, I'm <span class="gradient-text">${firstName}</span>`;
     document.getElementById('heroTitle').textContent = d.hero?.title || '';
     document.getElementById('heroIntro').textContent = d.hero?.intro || '';
@@ -442,8 +441,7 @@
     ].filter(Boolean).join('');
 
     // Footer
-    document.getElementById('footerName').textContent = (d.hero?.name?.split(' ')[0]?.[0] || 'D') + (d.hero?.name?.split(' ')[2]?.[0] || 'X') + '.';
-    document.getElementById('footerCopy').textContent = `© ${new Date().getFullYear()} ${d.hero?.name || 'Dexter Francisco'} · Built with ❤️`;
+    document.getElementById('footerCopy').textContent = `© ${new Date().getFullYear()} ${d.hero?.name || 'Dexter Francisco'}`;
 
     // Re-observe new elements added to DOM
     requestAnimationFrame(observeReveal);
